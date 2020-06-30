@@ -1,0 +1,97 @@
+/*FONTS============================================================*/
+
+@font-face {
+  font-family: 'Hind', sans-serif;
+  src: url("/css/fonts/Hind-Bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hind', sans-serif;
+  src: url("/css/fonts/Hind-Light.ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hind', sans-serif;
+  src: url("/css/fonts/Hind-Medium.ttf");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hind', sans-serif;
+  src: url("/css/fonts/Hind-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hind', sans-serif;
+  src: url("/css/fonts/Hind-SemiBold.ttf");
+  font-weight: 600;
+  font-style: normal;
+}
+
+/*=================================================================*/
+
+/*  COMMON STYLES==================================================*/
+a.active.focus,
+a.active:focus,
+a.focus,
+a:active.focus,
+a:active:focus,
+a:focus,
+button.active.focus,
+button.active:focus,
+button.focus,
+button:active.focus,
+button:active:focus,
+button:focus,
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn:active:focus,
+.btn:focus {
+  outline: 0 !important;
+  outline-color: transparent !important;
+  outline-width: 0 !important;
+  outline-style: none !important;
+  -webkit-box-shadow: 0 0 0 0 rgba(0, 123, 255, 0) !important;
+  -moz-box-shadow: 0 0 0 0 rgba(0, 123, 255, 0) !important;
+  box-shadow: 0 0 0 0 rgba(0, 123, 255, 0) !important;
+}
+
+body {
+  font-family: "SF UI Display", Arial, sans-serif;
+}
+
+._margin-bottom-24 {
+  margin-bottom: 24px;
+}
+
+._margin-right-5 {
+  margin-right: 5px;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+._hide-on-desktop-mobile {
+  display: none;
+}
+
+/*=================================================================*/
+
+
