@@ -67,15 +67,6 @@ button:focus,
 
 body {
   font-family: 'Hind', sans-serif;
-  height: 100%;
-}
-
-html {
-  height: 100%;
-}
-
-.main-container {
-  height: 100%;
 }
 
 ._margin-bottom-24 {
@@ -112,6 +103,15 @@ a:hover {
   font-size: 18px;
   line-height: 29px;
   color: #FFFFFF;
+  border: none;
+}
+
+.__download-button-orange:hover {
+  border: 1px solid #FF6300;
+  box-sizing: border-box;
+  box-shadow: 2px 6px 15px rgba(27, 48, 56, 0.2);
+  color: #FF6300;
+  background: transparent;
 }
 
 ._like-heading-one {
@@ -126,6 +126,33 @@ a:hover {
   line-height: 26px;
 }
 
+._section-heading-two {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 50px;
+}
+
+._section-heading-three {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 38px;
+}
+
+._margin-top-32 {
+  margin-top: 32px;
+}
+
+._margin-top-18 {
+  margin-top: 18px;
+}
+
+._margin-top-12 {
+  margin-top: 12px;
+}
+
+._margin-top-24 {
+  margin-top: 24px;
+}
 /*=================================================================*/
 
 .header__logo {
@@ -134,14 +161,13 @@ a:hover {
 }
 
 .header {
-  box-sizing: border-box;
-  min-height: 100%;
+  height: 100vh;
 }
 
 .header_background-color-patterns {
   background: url(/img/map.png), #080806;
   background-repeat: no-repeat;
-  background-position: center 90%;
+  background-position: center 66%;
   background-size: 80%;
 }
 
@@ -149,4 +175,173 @@ a:hover {
   padding-top: 30px;
 }
 
+.header__heading {
+  color: #FFFFFF;
+  text-align: center;
+  margin-top: 162px;
+}
+
+.header__paragraph {
+  color: #FFFFFF;
+  text-align: center;
+  margin-top: 46px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 38px;
+}
+
+.header__download-btn {
+  margin-top: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 260px;
+}
+
+.header__money-back {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  color: #FFFFFF;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.header__money-back::before {
+  content: url(/img/mark-dot.svg);
+  margin-right: 9px;
+  vertical-align: sub;
+}
+
+.header__brands {
+  max-width: 1200px;
+  width: 100%;
+  margin-top: 103px;
+  justify-content: space-between;
+  display: inline-flex;
+}
+
+.security__heading {
+  text-align: center;
+  max-width: 794px;
+  width: 100%;
+  color: #080806;
+}
+
+.security__paragraph {
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 100px;
+  max-width: 820px;
+  width: 100%;
+  color: #080806;
+}
+
+.security_padding {
+  padding-top: 100px;
+  padding-bottom: 205px;
+}
+
+.security__stormtrooper {
+  max-width: 383px;
+  width: 100%;
+}
+
+.security__wrapper-card-safe-data {
+  width: 488px;
+  margin-bottom: 127px;
+}
+
+.security__wrapper-card-hasslefree {
+  width: 488px;
+}
+
+.security__ultimate::before {
+  content: url(/img/wi-fi.svg);
+  margin-right: 18px;
+  vertical-align: sub;
+}
+
+.security__nologs::before {
+  content: url(/img/no-logs.svg);
+  margin-right: 18px;
+  vertical-align: sub;
+}
+
+.security__access::before {
+  content: url(/img/play.svg);
+  margin-right: 18px;
+  vertical-align: sub;
+}
+
+.security__devices::before {
+  content: url(/img/devices.svg);
+  margin-right: 18px;
+  vertical-align: sub;
+}
+
+.security__xbox-tv {
+  max-width: 648.86px;
+  margin-top: 60px;
+  margin-left: -59px;
+}
+
+.advantages {
+  background: #080806;
+  color: #FFFFFF;
+}
+
+.advantages_padding {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.advantages__paragraph {
+  width: 285px;
+}
+
+.guarantee_padding {
+  padding-top: 164px;
+  padding-bottom: 100px;
+}
+
+.guarantee {
+  background: radial-gradient(50% 50% at 50% 50%, #2577B2 0%, #036DB9 100%);;
+  color: #FFFFFF;
+}
+
+.guarantee__compare-vpn {
+  max-width: 441.43px;
+  width: 100%;
+  margin-top: -64px;
+}
+
+.guarantee__shield {
+  max-width: 290.07px;
+  width: 100%;
+  margin-top: 222px;
+}
+
+.guarantee__wrapper-card-shield {
+  margin-top: 247px;
+}
+
+.guarantee__paragraph {
+  width: 488px;
+}
+
+.guarantee__ul > li::before {
+  content: url(/img/done.svg);
+  margin-right: 16px;
+  vertical-align: middle;
+}
+
+.footer {
+  background: #080806;
+}
+
+.footer_padding {
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
 
