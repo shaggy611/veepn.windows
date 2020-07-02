@@ -153,6 +153,54 @@ a:hover {
 ._margin-top-24 {
   margin-top: 24px;
 }
+
+.rectangle-scroll-wrapper {
+  display: grid;
+  width: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+}
+
+.rectangle-scroll-wrapper > span {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+
+.rectangle-first {
+  width: 14px;
+  animation: pulsing 2s infinite;
+  margin-top: 7px;
+}
+
+.rectangle-second {
+  margin-top: 6px;
+  width: 14px;
+  animation: pulsing 2s infinite 200ms;
+}
+
+.rectangle-third {
+  margin-top: 6px;
+  width: 14px;
+  animation: pulsing 2s infinite 400ms;
+}
+
+@keyframes pulsing {
+  0% {
+    
+    transform: scale(0.5, 0.5);
+  }
+  50% {
+    
+    transform: scale(1.0, 1.0);
+  }
+  100% {
+    
+    transform: scale(0.5, 0.5);
+  }
+}
 /*=================================================================*/
 
 .header__logo {
@@ -161,24 +209,24 @@ a:hover {
 }
 
 .header {
-  height: 100vh;
+  height: 105vh;
 }
 
 .header_background-color-patterns {
   background: url(/img/map.png), #080806;
   background-repeat: no-repeat;
-  background-position: center 66%;
+  background-position: center 45%;
   background-size: 80%;
 }
 
 .navbar_padding {
-  padding-top: 30px;
+  padding-top: 25px;
 }
 
 .header__heading {
   color: #FFFFFF;
   text-align: center;
-  margin-top: 162px;
+  margin-top: 152px;
 }
 
 .header__paragraph {
@@ -198,7 +246,7 @@ a:hover {
   width: 260px;
 }
 
-.header__money-back {
+.__money-back {
   font-weight: 500;
   font-size: 14px;
   line-height: 22px;
@@ -207,7 +255,7 @@ a:hover {
   margin-top: 25px;
 }
 
-.header__money-back::before {
+.__money-back::before {
   content: url(/img/mark-dot.svg);
   margin-right: 9px;
   vertical-align: sub;
@@ -344,4 +392,44 @@ a:hover {
   padding-bottom: 40px;
   padding-top: 40px;
 }
+
+.grab__heading {
+  text-align: center;
+  color: #080806;
+}
+
+.grab__paragraph {
+  text-align: center;
+  color: #080806;
+  margin-top: 32px;
+  margin-bottom: 100px;
+}
+
+.grab_padding {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.grab__card-month {
+  width: 386px;
+  height: 291px;
+  box-shadow: 0px 4px 30px rgba(193, 201, 217, 0.25);
+}
+
+.grab__card-five-year {
+  width: 386px;
+  height: 412px;
+  box-shadow: 0px 4px 30px rgba(193, 201, 217, 0.25);
+}
+
+.grab__card-one-year {
+  width: 386px;
+  height: 291px;
+  box-shadow: 0px 4px 30px rgba(193, 201, 217, 0.25);
+}
+
+.grab__card-five-year > .__money-back {
+  color: #080806;
+}
+
 
