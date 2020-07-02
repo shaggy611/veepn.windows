@@ -1,7 +1,250 @@
-@media (min-width: 320px) and (max-width: 374px) {
- 
+@media (min-width: 375px) and (max-width: 767px) {
+    .header {
+        height: 812px;
+      }
+
+    .rectangle-scroll-wrapper {
+        display: none;
+    }
+
+  .header__logo {
+    margin-left: 20px;
+  }
+
+  .header__heading {
+    width: 335px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+  }
+
+  ._like-heading-one {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 140%;
 }
 
-@media (min-width: 375px) and (max-width: 767px) {
- 
+  .header__paragraph {
+    width: 267px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+  }
+
+  .header_background-color-patterns {
+    background-position: center 45%;
+    background-size: 170%;
+  }
+
+  .header__brands {
+    max-width: 688px;
+  }
+
+  .security__heading {
+    max-width: 335px;
+  }
+
+  .security__paragraph {
+    max-width: 279px;
+  }
+
+  .security__paragraph {
+    margin-bottom: 40px;
+  }
+
+  .security__stormtrooper {
+    margin-bottom: 40px;
+    max-width: 338px;
+  }
+
+  .security__wrapper-card-safe-data {
+    width: 335px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+
+  .security__wrapper-card-hasslefree {
+    width: 335px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .security__xbox-tv {
+    max-width: 335px;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .security_padding {
+    padding-top: 40px;
+    padding-bottom: 80px;
+  }
+
+  .advantages_padding {
+    padding-top: 40px;
+    padding-bottom: 80px;
+  }
+
+  .advantages__paragraph {
+    width: 335px;
+  }
+
+  .advantages__card-wrapper {
+    width: 335px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .advantages__card-wrapper_margin {
+    margin-top: 40px;
+  }
+
+  .guarantee__shield {
+    max-width: 284px;
+    margin-top: 50px;
+  }
+
+  .guarantee__compare-vpn {
+    max-width: 335px;
+  }
+
+  .guarantee__wrapper-card > ._section-heading-two {
+      width: 335px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .guarantee__wrapper-card {
+    width: 335px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+  }
+
+  .guarantee__wrapper-card-shield {
+    width: 335px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .guarantee__paragraph {
+    width: 335px;
+  }
+
+  .guarantee_padding {
+    padding-top: 80px;
+    padding-bottom: 60px;
+  }
+
+  .guarantee__compare-vpn {
+    margin-top: 0;
+  }
+
+  .guarantee__wrapper-card-shield {
+    margin-top: 0;
+  }
+
+  .grab_padding {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .grab__heading {
+    width: 335px;
+  }
+
+  .grab__paragraph {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 40px;
+    font-weight: 500;
+  }
+
+  .grab__card-month {
+    max-width: 335px;
+    width: 100%;
+    height: 200px;
+    padding-top: 28px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .grab__card-five-year {
+    max-width: 335px;
+    width: 100%;
+    height: 300px;
+    padding-top: 37px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 32px;
+  }
+
+  .grab__card-one-year {
+    max-width: 335px;
+    width: 100%;
+    height: 200px;
+    padding-top: 28px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 32px;
+  }
+
+  .grab__download-btn {
+    width: 150px;
+    height: 40px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .grab__card-price {
+    font-size: 36px;
+    line-height: 140%;
+  }
+
+  .grab__card-price::before {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .grab__card-plan {
+    font-size: 18px;
+    line-height: 29px;
+  }
+
+  .grab__card-five-year > .__money-back {
+    font-size: 12px;
+    line-height: 19px;
+  }
+
+  .grab__card-save {
+    width: 99px;
+    height: 36px;
+  }
+
+  .footer__based {
+    margin-left: 0;
+    text-align: center;
+  }
+  
+  .footer__copyright {
+    margin-left: 0;
+    text-align: center;
+  }
+  
+  .footer__terms {
+    margin-right: 0;
+    text-align: center;
+  }
+  
+  .footer__privacy {
+    margin-right: 0;
+    text-align: center;
+  }
 }

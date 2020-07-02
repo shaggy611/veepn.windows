@@ -1,4 +1,248 @@
-@media (min-width: 768px) and (max-width: 1024px) {
- 
+@media (min-width: 768px) and (max-width: 1023px) {
+    .rectangle-scroll-wrapper {
+        margin-top: 86px;
+    }
+
+  .header__logo {
+    margin-left: 40px;
+  }
+
+  .header__heading {
+    width: 572px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .header__paragraph {
+    width: 572px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .header__brands {
+    max-width: 688px;
+  }
+
+  .security__heading {
+    max-width: 572px;
+  }
+
+  .security__paragraph {
+    max-width: 572px;
+  }
+
+  .security__paragraph {
+    margin-bottom: 40px;
+  }
+
+  .security__stormtrooper {
+    margin-bottom: 40px;
+  }
+
+  .security__wrapper-card-safe-data {
+    width: 569px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+
+  .security__wrapper-card-hasslefree {
+    width: 569px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .security__xbox-tv {
+    max-width: 688px;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .security_padding {
+    padding-top: 80px;
+    padding-bottom: 81px;
+  }
+
+  .advantages_padding {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .advantages__paragraph {
+    width: 570px;
+  }
+
+  .advantages__card-wrapper {
+    width: 570px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .advantages__card-wrapper_margin {
+    margin-top: 40px;
+  }
+
+  .guarantee__shield {
+    max-width: 284px;
+    margin-top: 60px;
+  }
+
+  .guarantee__compare-vpn {
+    max-width: 402.43px;
+  }
+
+  .guarantee__wrapper-card {
+    width: 572px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+  }
+
+  .guarantee__wrapper-card-shield {
+    width: 572px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .guarantee__paragraph {
+    width: 572px;
+  }
+
+  .guarantee_padding {
+    padding-top: 80px;
+    padding-bottom: 60px;
+  }
+
+  .guarantee__compare-vpn {
+    margin-top: 0;
+  }
+
+  .guarantee__wrapper-card-shield {
+    margin-top: 0;
+  }
+
+  .grab_padding {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .grab__heading {
+    width: 572px;
+  }
+
+  .grab__paragraph {
+    font-size: 18px;
+    line-height: 29px;
+    margin-bottom: 45px;
+  }
+
+  .grab__card-month {
+    max-width: 222px;
+    width: 98%;
+    height: 200px;
+    padding-top: 28px;
+    margin-left: auto;
+    margin-right: 0;
+  }
+
+  .grab__card-five-year {
+    max-width: 222px;
+    width: 98%;
+    height: 300px;
+    padding-top: 28px;
+  }
+
+  .grab__card-one-year {
+    max-width: 222px;
+    width: 98%;
+    height: 200px;
+    padding-top: 28px;
+    margin-left: 0;
+    margin-right: auto;
+  }
+
+  .grab__download-btn {
+    width: 150px;
+    height: 40px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .grab__card-price {
+    font-size: 36px;
+    line-height: 140%;
+  }
+
+  .grab__card-price::before {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .grab__card-plan {
+    font-size: 18px;
+    line-height: 29px;
+  }
+
+  .grab__card-five-year > .__money-back {
+    font-size: 12px;
+    line-height: 19px;
+  }
+
+  .grab__card-save {
+    width: 99px;
+    height: 36px;
+  }
+
+  .footer__based {
+    margin-left: 40px;
+  }
+  
+  .footer__copyright {
+    margin-left: 40px;
+  }
+  
+  .footer__terms {
+    margin-right: 40px;
+  }
+  
+  .footer__privacy {
+    margin-right: 40px;
+  }
 }
 
+@media (min-width: 992px) and (max-width: 1199px) {
+    .security__xbox-tv {
+        /* margin-left: 0; */
+        max-width: 538.86px;
+    }
+
+    .advantages__card-wrapper {
+        width: 570px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .grab__card-month {
+        max-width: 280px;
+      }
+    
+      .grab__card-five-year {
+        max-width: 280px;
+      }
+    
+      .grab__card-one-year {
+        max-width: 280px;
+      }
+}
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+.col-lg-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 50%;
+}
+}

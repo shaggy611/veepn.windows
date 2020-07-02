@@ -1,35 +1,35 @@
 /*FONTS============================================================*/
 
 @font-face {
-  font-family: 'Hind', sans-serif;
+  font-family: 'Hind';
   src: url("/css/fonts/Hind-Bold.ttf");
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Hind', sans-serif;
+  font-family: 'Hind';
   src: url("/css/fonts/Hind-Light.ttf");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Hind', sans-serif;
+  font-family: 'Hind';
   src: url("/css/fonts/Hind-Medium.ttf");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Hind', sans-serif;
+  font-family: 'Hind';
   src: url("/css/fonts/Hind-Regular.ttf");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Hind', sans-serif;
+  font-family: 'Hind';
   src: url("/css/fonts/Hind-SemiBold.ttf");
   font-weight: 600;
   font-style: normal;
@@ -167,6 +167,7 @@ a:hover {
   font-size: 12px;
   line-height: 19px;
   color: #FFFFFF;
+  text-transform: uppercase;
 }
 
 .rectangle-first {
@@ -280,7 +281,7 @@ a:hover {
   text-align: center;
   margin-top: 24px;
   margin-bottom: 100px;
-  max-width: 820px;
+  max-width: 803px;
   width: 100%;
   color: #080806;
 }
@@ -367,7 +368,11 @@ a:hover {
 .guarantee__shield {
   max-width: 290.07px;
   width: 100%;
-  margin-top: 222px;
+  margin-top: 185px;
+}
+
+.guarantee__30day-parag {
+  width: 455px;
 }
 
 .guarantee__wrapper-card-shield {
@@ -386,11 +391,20 @@ a:hover {
 
 .footer {
   background: #080806;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  color: #FFFFFF;
 }
 
 .footer_padding {
   padding-bottom: 40px;
   padding-top: 40px;
+}
+
+.grab {
+  color: #080806;
+  text-align: center;
 }
 
 .grab__heading {
@@ -411,25 +425,101 @@ a:hover {
 }
 
 .grab__card-month {
-  width: 386px;
+  max-width: 386px;
+  width: 96%;
   height: 291px;
   box-shadow: 0px 4px 30px rgba(193, 201, 217, 0.25);
+  padding-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .grab__card-five-year {
-  width: 386px;
+  max-width: 386px;
+  width: 96%;
   height: 412px;
   box-shadow: 0px 4px 30px rgba(193, 201, 217, 0.25);
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .grab__card-one-year {
-  width: 386px;
+  max-width: 386px;
+  width: 96%;
   height: 291px;
   box-shadow: 0px 4px 30px rgba(193, 201, 217, 0.25);
+  padding-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .grab__card-five-year > .__money-back {
   color: #080806;
+}
+
+.grab__card-price {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 73px;
+}
+
+.grab__card-price::before {
+  content: '$';
+  font-weight: 600;
+  font-size: 24px;
+  margin-right: 9px;
+  vertical-align: super;
+}
+
+.grab__card-save {
+  width: 120px;
+  height: 36px;
+  background-color: rgba(3, 109, 185, 0.2);
+  border-radius: 33px;
+  font-size: 16px;
+  line-height: 38px;
+  color: #080806;
+  margin-bottom: 28px;
+}
+
+.grab__card-five-year > .__money-back::before {
+  content: url(/img/exclude.svg);
+}
+
+.footer__based {
+  opacity: 0.6;
+  text-align: left;
+  margin-top: 16px;
+}
+
+.footer__copyright {
+  opacity: 0.6;
+  margin-top: 10px;
+  text-align: left;
+}
+
+.footer__terms {
+  text-align: right;
+  color: #FFFFFF;
+  margin-top: 16px;
+}
+
+.footer__privacy {
+  text-align: right;
+  color: #FFFFFF;
+  margin-top: 10px;
+}
+
+.footer__terms:hover {
+  text-decoration: underline;
+  color: #FFFFFF;
+}
+
+.footer__privacy:hover {
+  text-decoration: underline;
+  color: #FFFFFF;
 }
 
 
