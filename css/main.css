@@ -160,6 +160,9 @@ a:hover {
   margin-left: auto;
   margin-right: auto;
   margin-top: 150px;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
 }
 
 .rectangle-scroll-wrapper > span {
@@ -204,9 +207,89 @@ a:hover {
 }
 /*=================================================================*/
 
+.header__timer-digits {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 140%;
+  color: #FFFFFF;
+}
+
+.header__timer {
+  margin-top: 24px;
+  width: 237px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header__timer-days {
+  margin-right: 34px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+.header__timer-hours {
+  margin-right: 22px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+.header__timer-min {
+  margin-right: 14px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+.header__timer-sec {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
 .header__logo {
   width: 133px;
   height: 50px;
+}
+
+.header__brand-bbc {
+  max-width: 83.64px;
+  height: 24px;
+  width: 100%;
+}
+
+.header__brand-guardian {
+  max-width: 139.64px;
+  height: 24px;
+  width: 100%;
+}
+
+.header__brand-forbes {
+  max-width: 89.45px;
+  height: 24px;
+  width: 100%;
+}
+
+.header__brand-buzzfeed {
+  max-width: 135.53px;
+  height: 24px;
+  width: 100%;
+}
+
+.header__brand-huffington {
+  max-width: 181px;
+  height: 70px;
+  width: 100%;
+}
+
+.header__brand-wired {
+  max-width: 119.26px;
+  height: 24px;
 }
 
 .header {
@@ -263,8 +346,7 @@ a:hover {
 }
 
 .header__brands {
-  max-width: 1200px;
-  width: 100%;
+  width: 1200px;
   margin-top: 103px;
   justify-content: space-between;
   display: inline-flex;
@@ -292,7 +374,7 @@ a:hover {
 }
 
 .security__stormtrooper {
-  max-width: 383px;
+  max-width: 500px;
   width: 100%;
 }
 
@@ -520,6 +602,12 @@ a:hover {
 .footer__privacy:hover {
   text-decoration: underline;
   color: #FFFFFF;
+}
+
+@media (max-height: 970px) {
+  .rectangle-scroll-wrapper {
+    display: none;
+  }
 }
 
 

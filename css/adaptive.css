@@ -1,4 +1,49 @@
 @media (min-width: 375px) and (max-width: 767px) {
+
+    .header__brand-bbc {
+        max-width: 30.66px;
+        height: 8.8px;
+        width: 100%;
+      }
+      
+      .header__brand-guardian {
+        max-width: 51.18px;
+        height: 8.8px;
+        width: 100%;
+      }
+      
+      .header__brand-forbes {
+        max-width: 32.79px;
+        height: 8.8px;
+        width: 100%;
+      }
+      
+      .header__brand-buzzfeed {
+        max-width: 49.68px;
+        height: 8.8px;
+        width: 100%;
+      }
+      
+      .header__brand-huffington {
+        max-width: 66.34px;
+        height: 25.66px;
+        width: 100%;
+      }
+      
+      .header__brand-wired {
+        max-width: 43.71px;
+        height: 8.8px;
+        width: 100%;
+      }
+
+      .header__brands {
+        width: 335px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        margin-top: 83px;
+      }
+
     .header {
         height: 812px;
       }
@@ -38,9 +83,9 @@
     background-size: 170%;
   }
 
-  .header__brands {
+  /* .header__brands {
     max-width: 688px;
-  }
+  } */
 
   .security__heading {
     max-width: 335px;
@@ -56,7 +101,8 @@
 
   .security__stormtrooper {
     margin-bottom: 40px;
-    max-width: 338px;
+    max-width: 538px;
+    margin-left: 26px !important;
   }
 
   .security__wrapper-card-safe-data {
@@ -231,6 +277,7 @@
   .footer__based {
     margin-left: 0;
     text-align: center;
+    margin-top: 24px;
   }
   
   .footer__copyright {
@@ -247,4 +294,14 @@
     margin-right: 0;
     text-align: center;
   }
+
+  .footer__brand {
+      width: 190px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .guarantee__30day-parag {
+    width: 335px;
+}
 }
