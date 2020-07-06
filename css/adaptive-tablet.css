@@ -5,7 +5,10 @@
 
     .header_background-color-patterns {
         background-position: center 45%;
-        background-size: 122%;
+        -webkit-background-size: 122% 122%;
+           -moz-background-size: 122%;
+             -o-background-size: 122%;
+                background-size: 122%;
       }
 
     .header__brand-bbc {
@@ -68,6 +71,10 @@
     width: 688px;
     margin-left: auto;
     margin-right: auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
     display: flex;
   }
 
@@ -329,6 +336,10 @@
         width: 900px;
         margin-left: auto;
         margin-right: auto;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
         display: flex;
       }
 

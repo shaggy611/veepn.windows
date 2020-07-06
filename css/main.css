@@ -95,8 +95,12 @@ a:hover {
 
 .__download-button-orange {
   background: #FF6300;
-  box-shadow: 2px 6px 15px rgba(27, 48, 56, 0.2);
-  border-radius: 100px;
+  -webkit-box-shadow: 2px 6px 15px rgba(27, 48, 56, 0.2);
+     -moz-box-shadow: 2px 6px 15px rgba(27, 48, 56, 0.2);
+          box-shadow: 2px 6px 15px rgba(27, 48, 56, 0.2);
+  -webkit-border-radius: 100px;
+     -moz-border-radius: 100px;
+          border-radius: 100px;
   height: 59px;
   width: 260px;
   font-weight: 600;
@@ -108,8 +112,12 @@ a:hover {
 
 .__download-button-orange:hover {
   border: 1px solid #FF6300;
-  box-sizing: border-box;
-  box-shadow: 2px 6px 15px rgba(27, 48, 56, 0.2);
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 2px 6px 15px rgba(27, 48, 56, 0.2);
+     -moz-box-shadow: 2px 6px 15px rgba(27, 48, 56, 0.2);
+          box-shadow: 2px 6px 15px rgba(27, 48, 56, 0.2);
   color: #FF6300;
   background: transparent;
 }
@@ -155,6 +163,7 @@ a:hover {
 }
 
 .rectangle-scroll-wrapper {
+  display: -ms-grid;
   display: grid;
   width: 30px;
   margin-left: auto;
@@ -175,34 +184,124 @@ a:hover {
 
 .rectangle-first {
   width: 14px;
-  animation: pulsing 2s infinite;
+  -webkit-animation: pulsing 2s infinite;
+     -moz-animation: pulsing 2s infinite;
+       -o-animation: pulsing 2s infinite;
+          animation: pulsing 2s infinite;
   margin-top: 7px;
 }
 
 .rectangle-second {
   margin-top: 6px;
   width: 14px;
-  animation: pulsing 2s infinite 200ms;
+  -webkit-animation: pulsing 2s infinite 200ms;
+     -moz-animation: pulsing 2s infinite 200ms;
+       -o-animation: pulsing 2s infinite 200ms;
+          animation: pulsing 2s infinite 200ms;
 }
 
 .rectangle-third {
   margin-top: 6px;
   width: 14px;
-  animation: pulsing 2s infinite 400ms;
+  -webkit-animation: pulsing 2s infinite 400ms;
+     -moz-animation: pulsing 2s infinite 400ms;
+       -o-animation: pulsing 2s infinite 400ms;
+          animation: pulsing 2s infinite 400ms;
+}
+
+@-webkit-keyframes pulsing {
+  0% {
+    
+    -webkit-transform: scale(0.5, 0.5);
+    
+            transform: scale(0.5, 0.5);
+  }
+  50% {
+    
+    -webkit-transform: scale(1.0, 1.0);
+    
+            transform: scale(1.0, 1.0);
+  }
+  100% {
+    
+    -webkit-transform: scale(0.5, 0.5);
+    
+            transform: scale(0.5, 0.5);
+  }
+}
+
+@-moz-keyframes pulsing {
+  0% {
+    
+    -moz-transform: scale(0.5, 0.5);
+    
+         transform: scale(0.5, 0.5);
+  }
+  50% {
+    
+    -moz-transform: scale(1.0, 1.0);
+    
+         transform: scale(1.0, 1.0);
+  }
+  100% {
+    
+    -moz-transform: scale(0.5, 0.5);
+    
+         transform: scale(0.5, 0.5);
+  }
+}
+
+@-o-keyframes pulsing {
+  0% {
+    
+    -o-transform: scale(0.5, 0.5);
+    
+       transform: scale(0.5, 0.5);
+  }
+  50% {
+    
+    -o-transform: scale(1.0, 1.0);
+    
+       transform: scale(1.0, 1.0);
+  }
+  100% {
+    
+    -o-transform: scale(0.5, 0.5);
+    
+       transform: scale(0.5, 0.5);
+  }
 }
 
 @keyframes pulsing {
   0% {
     
-    transform: scale(0.5, 0.5);
+    -webkit-transform: scale(0.5, 0.5);
+    
+       -moz-transform: scale(0.5, 0.5);
+    
+         -o-transform: scale(0.5, 0.5);
+    
+            transform: scale(0.5, 0.5);
   }
   50% {
     
-    transform: scale(1.0, 1.0);
+    -webkit-transform: scale(1.0, 1.0);
+    
+       -moz-transform: scale(1.0, 1.0);
+    
+         -o-transform: scale(1.0, 1.0);
+    
+            transform: scale(1.0, 1.0);
   }
   100% {
     
-    transform: scale(0.5, 0.5);
+    -webkit-transform: scale(0.5, 0.5);
+    
+       -moz-transform: scale(0.5, 0.5);
+    
+         -o-transform: scale(0.5, 0.5);
+    
+            transform: scale(0.5, 0.5);
   }
 }
 /*=================================================================*/
@@ -301,7 +400,10 @@ a:hover {
   background: url(/img/map.png), #080806;
   background-repeat: no-repeat;
   background-position: center 45%;
-  background-size: 80%;
+  -webkit-background-size: 80% 80%;
+     -moz-background-size: 80%;
+       -o-background-size: 80%;
+          background-size: 80%;
 }
 
 .navbar_padding {
@@ -349,7 +451,15 @@ a:hover {
 .header__brands {
   width: 1200px;
   margin-top: 103px;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+     -moz-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -moz-inline-box;
+  display: -ms-inline-flexbox;
   display: inline-flex;
 }
 
@@ -438,6 +548,9 @@ a:hover {
 }
 
 .guarantee {
+  background: -webkit-radial-gradient(50% 50%, 50% 50%, #2577B2 0%, #036DB9 100%);
+  background: -moz-radial-gradient(50% 50%, 50% 50%, #2577B2 0%, #036DB9 100%);
+  background: -o-radial-gradient(50% 50%, 50% 50%, #2577B2 0%, #036DB9 100%);
   background: radial-gradient(50% 50% at 50% 50%, #2577B2 0%, #036DB9 100%);;
   color: #FFFFFF;
 }
@@ -511,7 +624,9 @@ a:hover {
   max-width: 386px;
   width: 96%;
   height: 291px;
-  box-shadow: 0px 4px 30px rgba(193, 201, 217, 0.25);
+  -webkit-box-shadow: 0px 4px 30px rgba(193, 201, 217, 0.25);
+     -moz-box-shadow: 0px 4px 30px rgba(193, 201, 217, 0.25);
+          box-shadow: 0px 4px 30px rgba(193, 201, 217, 0.25);
   padding-top: 60px;
   margin-left: auto;
   margin-right: auto;
@@ -521,7 +636,9 @@ a:hover {
   max-width: 386px;
   width: 96%;
   height: 412px;
-  box-shadow: 0px 4px 30px rgba(193, 201, 217, 0.25);
+  -webkit-box-shadow: 0px 4px 30px rgba(193, 201, 217, 0.25);
+     -moz-box-shadow: 0px 4px 30px rgba(193, 201, 217, 0.25);
+          box-shadow: 0px 4px 30px rgba(193, 201, 217, 0.25);
   padding-top: 60px;
   padding-bottom: 60px;
   margin-left: auto;
@@ -532,7 +649,9 @@ a:hover {
   max-width: 386px;
   width: 96%;
   height: 291px;
-  box-shadow: 0px 4px 30px rgba(193, 201, 217, 0.25);
+  -webkit-box-shadow: 0px 4px 30px rgba(193, 201, 217, 0.25);
+     -moz-box-shadow: 0px 4px 30px rgba(193, 201, 217, 0.25);
+          box-shadow: 0px 4px 30px rgba(193, 201, 217, 0.25);
   padding-top: 60px;
   margin-left: auto;
   margin-right: auto;
@@ -560,7 +679,9 @@ a:hover {
   width: 120px;
   height: 36px;
   background-color: rgba(3, 109, 185, 0.2);
-  border-radius: 33px;
+  -webkit-border-radius: 33px;
+     -moz-border-radius: 33px;
+          border-radius: 33px;
   font-size: 16px;
   line-height: 38px;
   color: #080806;
@@ -610,5 +731,4 @@ a:hover {
     display: none;
   }
 }
-
 
