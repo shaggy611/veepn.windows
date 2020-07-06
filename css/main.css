@@ -732,3 +732,10 @@ a:hover {
   }
 }
 
+@media screen and (orientation:landscape) {
+  .header {
+    height: 100%;
+    padding-bottom: 100px !important;
+  }
+}
+
