@@ -309,8 +309,9 @@ a:hover {
 .header__timer-digits {
   font-weight: 600;
   font-size: 36px;
-  line-height: 140%;
+  line-height: 82%;
   color: #FFFFFF;
+  margin-top: 38px;
 }
 
 .header__timer {
@@ -322,15 +323,16 @@ a:hover {
 }
 
 .header__timer-days {
-  margin-right: 34px;
+  margin-right: 36px;
   font-weight: 500;
   font-size: 14px;
   line-height: 22px;
   color: #FFFFFF;
+  margin-left: 5px;
 }
 
 .header__timer-hours {
-  margin-right: 22px;
+  margin-right: 24px;
   font-weight: 500;
   font-size: 14px;
   line-height: 22px;
@@ -385,6 +387,7 @@ a:hover {
   max-width: 181px;
   height: 70px;
   width: 100%;
+  margin-top: -13px;
 }
 
 .header__brand-wired {
