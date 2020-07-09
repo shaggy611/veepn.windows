@@ -158,16 +158,18 @@ a:hover {
   margin-top: 12px;
 }
 
+._margin-top-5 {
+  margin-top: 5px;
+}
+
 ._margin-top-24 {
   margin-top: 24px;
 }
 
 .rectangle-scroll-wrapper {
-  display: -ms-grid;
-  display: grid;
-  width: 30px;
-  margin-left: auto;
-  margin-right: auto;
+  display: block;
+  /* width: 30px; */
+  margin-left: -25px;
   margin-top: 150px;
   position: absolute;
   bottom: 10px;
@@ -488,7 +490,7 @@ a:hover {
 }
 
 .security__stormtrooper {
-  max-width: 500px;
+  max-width: 485px;
   width: 100%;
 }
 
@@ -526,8 +528,8 @@ a:hover {
 }
 
 .security__xbox-tv {
-  max-width: 648.86px;
-  margin-top: 60px;
+  max-width: 730.86px;
+  margin-top: 50px;
   margin-left: -59px;
 }
 
@@ -547,7 +549,7 @@ a:hover {
 
 .guarantee_padding {
   padding-top: 164px;
-  padding-bottom: 100px;
+  padding-bottom: 55px;
 }
 
 .guarantee {
@@ -565,7 +567,7 @@ a:hover {
 }
 
 .guarantee__shield {
-  max-width: 290.07px;
+  max-width: 340.07px;
   width: 100%;
   margin-top: 185px;
 }
@@ -582,22 +584,23 @@ a:hover {
   width: 488px;
 }
 
-.guarantee__ul > li::before {
+.guarantee__ul > li:before {
   content: url(/img/done.svg);
-  margin-right: 16px;
-  vertical-align: middle;
+  padding-right: 16px;
+  /* vertical-align: middle; */
 }
 
-.guarantee__ul {
-  /* list-style-image: url(/img/done.svg); */
+.guarantee__ul > li {
+  list-style-type: none;
 }
 
 .footer {
   background: #080806;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 14px;
   line-height: 22px;
   color: #FFFFFF;
+  border: none;
 }
 
 .footer_padding {
