@@ -588,6 +588,10 @@ a:hover {
   vertical-align: middle;
 }
 
+.guarantee__ul {
+  /* list-style-image: url(/img/done.svg); */
+}
+
 .footer {
   background: #080806;
   font-weight: 500;
