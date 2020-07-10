@@ -736,7 +736,7 @@ a:hover {
   color: #FFFFFF;
 }
 
-@media (max-height: 970px) {
+@media (max-height: 768px) {
   .rectangle-scroll-wrapper {
     display: none;
   }
