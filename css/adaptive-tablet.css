@@ -363,4 +363,8 @@
   .header__heading {
     margin-top: 8%;
   }
+  
+  .header_background-color-patterns {
+    background-position: center 30%;
+  }
 }
