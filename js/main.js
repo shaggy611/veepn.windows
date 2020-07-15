@@ -18,6 +18,6 @@ $(document).ready(function () {
         if (seconds < 10) {
             seconds = "0" + seconds;
         }
-        $(".header__timer-digits").html(days + " : " + hours + " : " + minutes + " : " + seconds);
+        $(".header__timer-digits").text(days + " : " + hours + " : " + minutes + " : " + seconds);
     }, 10);
 });  

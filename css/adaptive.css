@@ -1,5 +1,9 @@
 @media (min-width: 320px) and (max-width: 767px) {
 
+  #collapse_parrent {
+    height: auto;
+  }
+
   .header__brand-bbc {
       max-width: 30.66px;
       height: 8.8px;
@@ -108,9 +112,14 @@
 }
 
 .security__stormtrooper {
-  margin-bottom: -48px;
-  max-width: 538px;
-  margin-left: 26px !important;
+  margin-bottom: -21px;
+  max-width: 385px;
+  /* margin-left: 26px !important; */
+  -webkit-transform: translate(18px);
+     -moz-transform: translate(18px);
+      -ms-transform: translate(18px);
+       -o-transform: translate(18px);
+          transform: translate(18px);
 }
 
 .security__wrapper-card-safe-data {
@@ -127,12 +136,17 @@
 }
 
 .security__xbox-tv {
-  max-width: 335px;
+  max-width: 355px;
   margin-top: 70px;
   margin-bottom: 40px;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  -webkit-transform: translate(13px);
+     -moz-transform: translate(13px);
+      -ms-transform: translate(13px);
+       -o-transform: translate(13px);
+          transform: translate(13px);
 }
 
 .security_padding {
@@ -275,7 +289,7 @@
   line-height: 29px;
 }
 
-.grab__card-five-year > .grab__choose-price-wrapper > .__money-back {
+.grab__choose-price-wrapper > .__money-back {
   font-size: 12px;
   line-height: 19px;
 }

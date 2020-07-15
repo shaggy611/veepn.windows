@@ -1,10 +1,19 @@
 @media (min-width: 768px) and (max-width: 1023px) {
+
+  #collapse_parrent {
+    height: 287px;
+  }
+
+  .header {
+    padding-bottom: 68px;
+  }
+
     .rectangle-scroll-wrapper {
         margin-top: 86px;
     }
 
     .header_background-color-patterns {
-        background-position: center 45%;
+        background-position: center 38%;
         -webkit-background-size: 122% 122%;
            -moz-background-size: 122%;
              -o-background-size: 122%;
@@ -247,7 +256,7 @@
     line-height: 29px;
   }
 
-  .grab__card-five-year > .grab__choose-price-wrapper > .__money-back {
+  .grab__choose-price-wrapper > .__money-back {
     font-size: 12px;
     line-height: 19px;
   }
@@ -349,4 +358,10 @@
       .security__stormtrooper {
         max-width: 500px;
       }
+}
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+  .header__heading {
+    margin-top: 8%;
+  }
 }
