@@ -1,4 +1,4 @@
-@media (min-width: 375px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 767px) {
 
   .header__brand-bbc {
       max-width: 30.66px;
@@ -223,8 +223,9 @@
 .grab__card-month {
   max-width: 335px;
   width: 100%;
-  height: 200px;
+  height: auto;
   padding-top: 28px;
+  padding-bottom: 28px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -232,8 +233,9 @@
 .grab__card-five-year {
   max-width: 335px;
   width: 100%;
-  height: 300px;
-  padding-top: 37px;
+  height: auto;
+  padding-top: 28px;
+  padding-bottom: 28px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 32px;
@@ -242,8 +244,9 @@
 .grab__card-one-year {
   max-width: 335px;
   width: 100%;
-  height: 200px;
+  height: auto;
   padding-top: 28px;
+  padding-bottom: 28px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 32px;
@@ -272,7 +275,7 @@
   line-height: 29px;
 }
 
-.grab__card-five-year > .__money-back {
+.grab__card-five-year > .grab__choose-price-wrapper > .__money-back {
   font-size: 12px;
   line-height: 19px;
 }
