@@ -1,35 +1,35 @@
 /*FONTS============================================================*/
 
 @font-face {
-  font-family: 'Hind';
+  font-family: "Hind";
   src: url("/css/fonts/Hind-Bold.ttf");
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Hind';
+  font-family: "Hind";
   src: url("/css/fonts/Hind-Light.ttf");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Hind';
+  font-family: "Hind";
   src: url("/css/fonts/Hind-Medium.ttf");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Hind';
+  font-family: "Hind";
   src: url("/css/fonts/Hind-Regular.ttf");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Hind';
+  font-family: "Hind";
   src: url("/css/fonts/Hind-SemiBold.ttf");
   font-weight: 600;
   font-style: normal;
@@ -66,7 +66,7 @@ button:focus,
 }
 
 body {
-  font-family: 'Hind', sans-serif;
+  font-family: "Hind", sans-serif;
 }
 
 ._margin-bottom-24 {
@@ -94,31 +94,31 @@ a:hover {
 }
 
 .__download-button-orange {
-  background: #FF6300;
+  background: #ff6300;
   -webkit-box-shadow: 2px 6px 15px rgba(27, 48, 56, 0.2);
-     -moz-box-shadow: 2px 6px 15px rgba(27, 48, 56, 0.2);
-          box-shadow: 2px 6px 15px rgba(27, 48, 56, 0.2);
+  -moz-box-shadow: 2px 6px 15px rgba(27, 48, 56, 0.2);
+  box-shadow: 2px 6px 15px rgba(27, 48, 56, 0.2);
   -webkit-border-radius: 100px;
-     -moz-border-radius: 100px;
-          border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
   height: 59px;
   width: 260px;
   font-weight: 600;
   font-size: 18px;
   line-height: 29px;
-  color: #FFFFFF;
+  color: #ffffff;
   border: none;
 }
 
 .__download-button-orange:hover {
-  border: 1px solid #FF6300;
+  border: 1px solid #ff6300;
   -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
   -webkit-box-shadow: 2px 6px 15px rgba(27, 48, 56, 0.2);
-     -moz-box-shadow: 2px 6px 15px rgba(27, 48, 56, 0.2);
-          box-shadow: 2px 6px 15px rgba(27, 48, 56, 0.2);
-  color: #FF6300;
+  -moz-box-shadow: 2px 6px 15px rgba(27, 48, 56, 0.2);
+  box-shadow: 2px 6px 15px rgba(27, 48, 56, 0.2);
+  color: #ff6300;
   background: transparent;
 }
 
@@ -180,7 +180,7 @@ a:hover {
   font-weight: 600;
   font-size: 12px;
   line-height: 19px;
-  color: #FFFFFF;
+  color: #ffffff;
   text-transform: uppercase;
   width: 200px;
   margin-left: auto;
@@ -192,9 +192,9 @@ a:hover {
 .rectangle-first {
   width: 14px;
   -webkit-animation: pulsing 2s infinite;
-     -moz-animation: pulsing 2s infinite;
-       -o-animation: pulsing 2s infinite;
-          animation: pulsing 2s infinite;
+  -moz-animation: pulsing 2s infinite;
+  -o-animation: pulsing 2s infinite;
+  animation: pulsing 2s infinite;
   margin-top: 7px;
 }
 
@@ -202,113 +202,101 @@ a:hover {
   margin-top: 6px;
   width: 14px;
   -webkit-animation: pulsing 2s infinite 200ms;
-     -moz-animation: pulsing 2s infinite 200ms;
-       -o-animation: pulsing 2s infinite 200ms;
-          animation: pulsing 2s infinite 200ms;
+  -moz-animation: pulsing 2s infinite 200ms;
+  -o-animation: pulsing 2s infinite 200ms;
+  animation: pulsing 2s infinite 200ms;
 }
 
 .rectangle-third {
   margin-top: 6px;
   width: 14px;
   -webkit-animation: pulsing 2s infinite 400ms;
-     -moz-animation: pulsing 2s infinite 400ms;
-       -o-animation: pulsing 2s infinite 400ms;
-          animation: pulsing 2s infinite 400ms;
+  -moz-animation: pulsing 2s infinite 400ms;
+  -o-animation: pulsing 2s infinite 400ms;
+  animation: pulsing 2s infinite 400ms;
 }
 
 @-webkit-keyframes pulsing {
   0% {
-    
     -webkit-transform: scale(0.5, 0.5);
-    
-            transform: scale(0.5, 0.5);
+
+    transform: scale(0.5, 0.5);
   }
   50% {
-    
-    -webkit-transform: scale(1.0, 1.0);
-    
-            transform: scale(1.0, 1.0);
+    -webkit-transform: scale(1, 1);
+
+    transform: scale(1, 1);
   }
   100% {
-    
     -webkit-transform: scale(0.5, 0.5);
-    
-            transform: scale(0.5, 0.5);
+
+    transform: scale(0.5, 0.5);
   }
 }
 
 @-moz-keyframes pulsing {
   0% {
-    
     -moz-transform: scale(0.5, 0.5);
-    
-         transform: scale(0.5, 0.5);
+
+    transform: scale(0.5, 0.5);
   }
   50% {
-    
-    -moz-transform: scale(1.0, 1.0);
-    
-         transform: scale(1.0, 1.0);
+    -moz-transform: scale(1, 1);
+
+    transform: scale(1, 1);
   }
   100% {
-    
     -moz-transform: scale(0.5, 0.5);
-    
-         transform: scale(0.5, 0.5);
+
+    transform: scale(0.5, 0.5);
   }
 }
 
 @-o-keyframes pulsing {
   0% {
-    
     -o-transform: scale(0.5, 0.5);
-    
-       transform: scale(0.5, 0.5);
+
+    transform: scale(0.5, 0.5);
   }
   50% {
-    
-    -o-transform: scale(1.0, 1.0);
-    
-       transform: scale(1.0, 1.0);
+    -o-transform: scale(1, 1);
+
+    transform: scale(1, 1);
   }
   100% {
-    
     -o-transform: scale(0.5, 0.5);
-    
-       transform: scale(0.5, 0.5);
+
+    transform: scale(0.5, 0.5);
   }
 }
 
 @keyframes pulsing {
   0% {
-    
     -webkit-transform: scale(0.5, 0.5);
-    
-       -moz-transform: scale(0.5, 0.5);
-    
-         -o-transform: scale(0.5, 0.5);
-    
-            transform: scale(0.5, 0.5);
+
+    -moz-transform: scale(0.5, 0.5);
+
+    -o-transform: scale(0.5, 0.5);
+
+    transform: scale(0.5, 0.5);
   }
   50% {
-    
-    -webkit-transform: scale(1.0, 1.0);
-    
-       -moz-transform: scale(1.0, 1.0);
-    
-         -o-transform: scale(1.0, 1.0);
-    
-            transform: scale(1.0, 1.0);
+    -webkit-transform: scale(1, 1);
+
+    -moz-transform: scale(1, 1);
+
+    -o-transform: scale(1, 1);
+
+    transform: scale(1, 1);
   }
   100% {
-    
     -webkit-transform: scale(0.5, 0.5);
-    
-       -moz-transform: scale(0.5, 0.5);
-    
-         -o-transform: scale(0.5, 0.5);
-    
-            transform: scale(0.5, 0.5);
+
+    -moz-transform: scale(0.5, 0.5);
+
+    -o-transform: scale(0.5, 0.5);
+
+    transform: scale(0.5, 0.5);
   }
 }
 
@@ -321,7 +309,7 @@ a:hover {
   font-weight: 600;
   font-size: 36px;
   line-height: 82%;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-top: 38px;
   height: auto;
 }
@@ -339,7 +327,7 @@ a:hover {
   font-weight: 500;
   font-size: 14px;
   line-height: 22px;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-left: 5px;
 }
 
@@ -348,7 +336,7 @@ a:hover {
   font-weight: 500;
   font-size: 14px;
   line-height: 22px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .header__timer-min {
@@ -356,14 +344,14 @@ a:hover {
   font-weight: 500;
   font-size: 14px;
   line-height: 22px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .header__timer-sec {
   font-weight: 500;
   font-size: 14px;
   line-height: 22px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .header__logo {
@@ -417,9 +405,9 @@ a:hover {
   background-repeat: no-repeat;
   background-position: center 38%;
   -webkit-background-size: 80% 80%;
-     -moz-background-size: 80%;
-       -o-background-size: 80%;
-          background-size: 80%;
+  -moz-background-size: 80%;
+  -o-background-size: 80%;
+  background-size: 80%;
 }
 
 .navbar_padding {
@@ -427,14 +415,14 @@ a:hover {
 }
 
 .header__heading {
-  color: #FFFFFF;
+  color: #ffffff;
   text-align: center;
   /* margin-top: 142px; */
   margin-top: 11%;
 }
 
 .header__paragraph {
-  color: #FFFFFF;
+  color: #ffffff;
   text-align: center;
   margin-top: 46px;
   font-weight: 600;
@@ -459,7 +447,7 @@ a:hover {
 }
 
 .__money-back-color {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .__money-back::before {
@@ -473,9 +461,9 @@ a:hover {
   margin-top: 93px;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
-     -moz-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -moz-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -moz-inline-box;
@@ -550,7 +538,7 @@ a:hover {
 
 .advantages {
   background: #080806;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .advantages_padding {
@@ -568,11 +556,17 @@ a:hover {
 }
 
 .guarantee {
-  background: -webkit-radial-gradient(50% 50%, 50% 50%, #2577B2 0%, #036DB9 100%);
-  background: -moz-radial-gradient(50% 50%, 50% 50%, #2577B2 0%, #036DB9 100%);
-  background: -o-radial-gradient(50% 50%, 50% 50%, #2577B2 0%, #036DB9 100%);
-  background: radial-gradient(50% 50% at 50% 50%, #2577B2 0%, #036DB9 100%);;
-  color: #FFFFFF;
+  background: -webkit-radial-gradient(
+    50% 50%,
+    50% 50%,
+    #2577b2 0%,
+    #036db9 100%
+  );
+  background: -moz-radial-gradient(50% 50%, 50% 50%, #2577b2 0%, #036db9 100%);
+  background: -o-radial-gradient(50% 50%, 50% 50%, #2577b2 0%, #036db9 100%);
+  background: -webkit-radial-gradient(50% 50%, 50% 50%, #2577b2 0%, #036db9 100%);
+  background: radial-gradient(50% 50% at 50% 50%, #2577b2 0%, #036db9 100%);
+  color: #ffffff;
 }
 
 .guarantee__compare-vpn {
@@ -602,7 +596,6 @@ a:hover {
 .guarantee__ul > li:before {
   content: url(/img/done.svg);
   padding-right: 16px;
-  /* vertical-align: middle; */
 }
 
 .guarantee__ul > li {
@@ -613,8 +606,7 @@ a:hover {
   background: #080806;
   font-weight: 400;
   font-size: 14px;
-  /* line-height: 22px; */
-  color: #FFFFFF;
+  color: #ffffff;
   border: none;
 }
 
@@ -650,8 +642,8 @@ a:hover {
   width: 96%;
   height: auto;
   -webkit-box-shadow: 0px 4px 30px rgba(193, 201, 217, 0.25);
-     -moz-box-shadow: 0px 4px 30px rgba(193, 201, 217, 0.25);
-          box-shadow: 0px 4px 30px rgba(193, 201, 217, 0.25);
+  -moz-box-shadow: 0px 4px 30px rgba(193, 201, 217, 0.25);
+  box-shadow: 0px 4px 30px rgba(193, 201, 217, 0.25);
   padding-top: 60px;
   margin-left: auto;
   margin-right: auto;
@@ -663,8 +655,8 @@ a:hover {
   width: 96%;
   height: auto;
   -webkit-box-shadow: 0px 4px 30px rgba(193, 201, 217, 0.25);
-     -moz-box-shadow: 0px 4px 30px rgba(193, 201, 217, 0.25);
-          box-shadow: 0px 4px 30px rgba(193, 201, 217, 0.25);
+  -moz-box-shadow: 0px 4px 30px rgba(193, 201, 217, 0.25);
+  box-shadow: 0px 4px 30px rgba(193, 201, 217, 0.25);
   padding-top: 60px;
   padding-bottom: 60px;
   margin-left: auto;
@@ -676,8 +668,8 @@ a:hover {
   width: 96%;
   height: auto;
   -webkit-box-shadow: 0px 4px 30px rgba(193, 201, 217, 0.25);
-     -moz-box-shadow: 0px 4px 30px rgba(193, 201, 217, 0.25);
-          box-shadow: 0px 4px 30px rgba(193, 201, 217, 0.25);
+  -moz-box-shadow: 0px 4px 30px rgba(193, 201, 217, 0.25);
+  box-shadow: 0px 4px 30px rgba(193, 201, 217, 0.25);
   padding-top: 60px;
   margin-left: auto;
   margin-right: auto;
@@ -695,7 +687,7 @@ a:hover {
 }
 
 .grab__card-price::before {
-  content: '$';
+  content: "$";
   font-weight: 600;
   font-size: 24px;
   margin-right: 9px;
@@ -707,8 +699,8 @@ a:hover {
   height: 36px;
   background-color: rgba(3, 109, 185, 0.2);
   -webkit-border-radius: 33px;
-     -moz-border-radius: 33px;
-          border-radius: 33px;
+  -moz-border-radius: 33px;
+  border-radius: 33px;
   font-size: 16px;
   line-height: 38px;
   color: #080806;
@@ -733,24 +725,24 @@ a:hover {
 
 .footer__terms {
   text-align: right;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-top: 16px;
 }
 
 .footer__privacy {
   text-align: right;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-top: 10px;
 }
 
 .footer__terms:hover {
   text-decoration: underline;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .footer__privacy:hover {
   text-decoration: underline;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 @media (min-height: 400px) and (max-height: 650px) {
@@ -758,29 +750,3 @@ a:hover {
     display: none;
   }
 }
-
-/* @media (max-height: 700px) and (orientation:landscape) {
-  .header {
-    height: 100%;
-    padding-bottom: 100px !important;
-  }
-} */
-
-@media (min-height: 768px) and (max-height: 1024px) {
-
-
-  /* .header {
-    height: 139vh;
-    padding-bottom: 100px !important;
-  }
-
-  .rectangle-scroll-wrapper {
-    display: block;
-    margin-left: -25px;
-    margin-top: 150px;
-    position: absolute;
-    bottom: -211px;
-    left: 50%;
-  } */
-}
-

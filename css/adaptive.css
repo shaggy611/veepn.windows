@@ -1,338 +1,337 @@
 @media (min-width: 320px) and (max-width: 767px) {
-
   #collapse_parrent {
     height: auto;
   }
 
   .header__brand-bbc {
-      max-width: 30.66px;
-      height: 8.8px;
-      width: 100%;
-    }
-    
-    .header__brand-guardian {
-      max-width: 51.18px;
-      height: 8.8px;
-      width: 100%;
-    }
-    
-    .header__brand-forbes {
-      max-width: 32.79px;
-      height: 8.8px;
-      width: 100%;
-    }
-    
-    .header__brand-buzzfeed {
-      max-width: 49.68px;
-      height: 8.8px;
-      width: 100%;
-    }
-    
-    .header__brand-huffington {
-      max-width: 66.34px;
-      height: 25.66px;
-      width: 100%;
-      margin-top: -6px;
-    }
-    
-    .header__brand-wired {
-      max-width: 43.71px;
-      height: 8.8px;
-      width: 100%;
-    }
-
-    .header__brands {
-      width: 335px;
-      margin-left: auto;
-      margin-right: auto;
-      display: -webkit-box;
-      display: -webkit-flex;
-      display: -moz-box;
-      display: -ms-flexbox;
-      display: flex;
-      margin-top: 83px;
-    }
-
-  .header {
-      height: 812px;
-    }
-
-  .rectangle-scroll-wrapper {
-      display: none;
+    max-width: 30.66px;
+    height: 8.8px;
+    width: 100%;
   }
 
-.header__logo {
-  margin-left: 20px;
-}
+  .header__brand-guardian {
+    max-width: 51.18px;
+    height: 8.8px;
+    width: 100%;
+  }
 
-.header__heading {
-  width: 335px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 80px;
-}
+  .header__brand-forbes {
+    max-width: 32.79px;
+    height: 8.8px;
+    width: 100%;
+  }
 
-._like-heading-one {
-  font-weight: 600;
-  font-size: 36px;
-  line-height: 140%;
-}
+  .header__brand-buzzfeed {
+    max-width: 49.68px;
+    height: 8.8px;
+    width: 100%;
+  }
 
-.header__paragraph {
-  width: 267px;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 16px;
-  line-height: 26px;
-  font-weight: 400;
-}
+  .header__brand-huffington {
+    max-width: 66.34px;
+    height: 25.66px;
+    width: 100%;
+    margin-top: -6px;
+  }
 
-.header_background-color-patterns {
-  background-position: center 45%;
-  -webkit-background-size: 170% 170%;
-     -moz-background-size: 170%;
-       -o-background-size: 170%;
-          background-size: 170%;
-}
+  .header__brand-wired {
+    max-width: 43.71px;
+    height: 8.8px;
+    width: 100%;
+  }
 
-/* .header__brands {
-  max-width: 688px;
-} */
-
-.security__heading {
-  max-width: 335px;
-}
-
-.security__paragraph {
-  max-width: 279px;
-}
-
-.security__paragraph {
-  margin-bottom: 40px;
-}
-
-.security__stormtrooper {
-  margin-bottom: -21px;
-  max-width: 385px;
-  /* margin-left: 26px !important; */
-  -webkit-transform: translate(18px);
-     -moz-transform: translate(18px);
-      -ms-transform: translate(18px);
-       -o-transform: translate(18px);
-          transform: translate(18px);
-}
-
-.security__wrapper-card-safe-data {
-  width: 335px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 0;
-}
-
-.security__wrapper-card-hasslefree {
-  width: 335px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.security__xbox-tv {
-  max-width: 355px;
-  margin-top: 70px;
-  margin-bottom: 40px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  -webkit-transform: translate(13px);
-     -moz-transform: translate(13px);
-      -ms-transform: translate(13px);
-       -o-transform: translate(13px);
-          transform: translate(13px);
-}
-
-.security_padding {
-  padding-top: 40px;
-  padding-bottom: 80px;
-}
-
-.advantages_padding {
-  padding-top: 40px;
-  padding-bottom: 80px;
-}
-
-.advantages__paragraph {
-  width: 335px;
-}
-
-.advantages__card-wrapper {
-  width: 335px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.advantages__card-wrapper_margin {
-  margin-top: 40px;
-}
-
-.guarantee__shield {
-  max-width: 284px;
-  margin-top: 50px;
-}
-
-.guarantee__compare-vpn {
-  max-width: 335px;
-}
-
-.guarantee__wrapper-card > ._section-heading-two {
+  .header__brands {
     width: 335px;
     margin-left: auto;
     margin-right: auto;
-}
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 83px;
+  }
 
-.guarantee__wrapper-card {
-  width: 335px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 40px;
-}
+  .header {
+    height: 812px;
+  }
 
-.guarantee__wrapper-card-shield {
-  width: 335px;
-  margin-left: auto;
-  margin-right: auto;
-}
+  .rectangle-scroll-wrapper {
+    display: none;
+  }
 
-.guarantee__paragraph {
-  width: 335px;
-}
+  .header__logo {
+    margin-left: 20px;
+  }
 
-.guarantee_padding {
-  padding-top: 80px;
-  padding-bottom: 60px;
-}
+  .header__heading {
+    width: 335px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+  }
 
-.guarantee__compare-vpn {
-  margin-top: 0;
-}
+  ._like-heading-one {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 140%;
+  }
 
-.guarantee__wrapper-card-shield {
-  margin-top: 0;
-}
+  .header__paragraph {
+    width: 267px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+  }
 
-.grab_padding {
-  padding-top: 80px;
-  padding-bottom: 80px;
-}
+  .header_background-color-patterns {
+    background-position: center 45%;
+    -webkit-background-size: 170% 170%;
+    -moz-background-size: 170%;
+    -o-background-size: 170%;
+    background-size: 170%;
+  }
 
-.grab__heading {
-  width: 335px;
-}
+  /* .header__brands {
+  max-width: 688px;
+} */
 
-.grab__paragraph {
-  font-size: 16px;
-  line-height: 26px;
-  margin-bottom: 40px;
-  font-weight: 500;
-}
+  .security__heading {
+    max-width: 335px;
+  }
 
-.grab__card-month {
-  max-width: 335px;
-  width: 100%;
-  height: auto;
-  padding-top: 28px;
-  padding-bottom: 28px;
-  margin-left: auto;
-  margin-right: auto;
-}
+  .security__paragraph {
+    max-width: 279px;
+  }
 
-.grab__card-five-year {
-  max-width: 335px;
-  width: 100%;
-  height: auto;
-  padding-top: 28px;
-  padding-bottom: 28px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 32px;
-}
+  .security__paragraph {
+    margin-bottom: 40px;
+  }
 
-.grab__card-one-year {
-  max-width: 335px;
-  width: 100%;
-  height: auto;
-  padding-top: 28px;
-  padding-bottom: 28px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 32px;
-}
+  .security__stormtrooper {
+    margin-bottom: -21px;
+    max-width: 385px;
+    /* margin-left: 26px !important; */
+    -webkit-transform: translate(18px);
+    -moz-transform: translate(18px);
+    -ms-transform: translate(18px);
+    -o-transform: translate(18px);
+    transform: translate(18px);
+  }
 
-.grab__download-btn {
-  width: 150px;
-  height: 40px;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 22px;
-}
+  .security__wrapper-card-safe-data {
+    width: 335px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
 
-.grab__card-price {
-  font-size: 36px;
-  line-height: 140%;
-}
+  .security__wrapper-card-hasslefree {
+    width: 335px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-.grab__card-price::before {
-  font-size: 14px;
-  line-height: 22px;
-}
+  .security__xbox-tv {
+    max-width: 355px;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-transform: translate(13px);
+    -moz-transform: translate(13px);
+    -ms-transform: translate(13px);
+    -o-transform: translate(13px);
+    transform: translate(13px);
+  }
 
-.grab__card-plan {
-  font-size: 18px;
-  line-height: 29px;
-}
+  .security_padding {
+    padding-top: 40px;
+    padding-bottom: 80px;
+  }
 
-.grab__choose-price-wrapper > .__money-back {
-  font-size: 12px;
-  line-height: 19px;
-}
+  .advantages_padding {
+    padding-top: 40px;
+    padding-bottom: 80px;
+  }
 
-.grab__card-save {
-  width: 99px;
-  height: 36px;
-}
+  .advantages__paragraph {
+    width: 335px;
+  }
 
-.footer__based {
-  margin-left: 0;
-  text-align: center;
-  margin-top: 24px;
-}
+  .advantages__card-wrapper {
+    width: 335px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-.footer__copyright {
-  margin-left: 0;
-  text-align: center;
-}
+  .advantages__card-wrapper_margin {
+    margin-top: 40px;
+  }
 
-.footer__terms {
-  margin-right: 0;
-  text-align: center;
-}
+  .guarantee__shield {
+    max-width: 284px;
+    margin-top: 50px;
+  }
 
-.footer__privacy {
-  margin-right: 0;
-  text-align: center;
-}
+  .guarantee__compare-vpn {
+    max-width: 335px;
+  }
 
-.footer__brand {
+  .guarantee__wrapper-card > ._section-heading-two {
+    width: 335px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .guarantee__wrapper-card {
+    width: 335px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+  }
+
+  .guarantee__wrapper-card-shield {
+    width: 335px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .guarantee__paragraph {
+    width: 335px;
+  }
+
+  .guarantee_padding {
+    padding-top: 80px;
+    padding-bottom: 60px;
+  }
+
+  .guarantee__compare-vpn {
+    margin-top: 0;
+  }
+
+  .guarantee__wrapper-card-shield {
+    margin-top: 0;
+  }
+
+  .grab_padding {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .grab__heading {
+    width: 335px;
+  }
+
+  .grab__paragraph {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 40px;
+    font-weight: 500;
+  }
+
+  .grab__card-month {
+    max-width: 335px;
+    width: 100%;
+    height: auto;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .grab__card-five-year {
+    max-width: 335px;
+    width: 100%;
+    height: auto;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 32px;
+  }
+
+  .grab__card-one-year {
+    max-width: 335px;
+    width: 100%;
+    height: auto;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 32px;
+  }
+
+  .grab__download-btn {
+    width: 150px;
+    height: 40px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .grab__card-price {
+    font-size: 36px;
+    line-height: 140%;
+  }
+
+  .grab__card-price::before {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .grab__card-plan {
+    font-size: 18px;
+    line-height: 29px;
+  }
+
+  .grab__choose-price-wrapper > .__money-back {
+    font-size: 12px;
+    line-height: 19px;
+  }
+
+  .grab__card-save {
+    width: 99px;
+    height: 36px;
+  }
+
+  .footer__based {
+    margin-left: 0;
+    text-align: center;
+    margin-top: 24px;
+  }
+
+  .footer__copyright {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .footer__terms {
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .footer__privacy {
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .footer__brand {
     width: 190px;
     margin-left: auto;
     margin-right: auto;
-}
+  }
 
-.guarantee__30day-parag {
-  width: 335px;
-}
+  .guarantee__30day-parag {
+    width: 335px;
+  }
 
-.guarantee__ul > li {
-  text-indent: -32px;
-  margin-left: 32px;
-  list-style-type: none;
-}
+  .guarantee__ul > li {
+    text-indent: -32px;
+    margin-left: 32px;
+    list-style-type: none;
+  }
 }

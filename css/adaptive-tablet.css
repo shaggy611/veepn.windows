@@ -1,5 +1,4 @@
 @media (min-width: 768px) and (max-width: 1023px) {
-
   #collapse_parrent {
     height: 287px;
   }
@@ -8,53 +7,53 @@
     padding-bottom: 68px;
   }
 
-    .rectangle-scroll-wrapper {
-        margin-top: 86px;
-    }
+  .rectangle-scroll-wrapper {
+    margin-top: 86px;
+  }
 
-    .header_background-color-patterns {
-        background-position: center 38%;
-        -webkit-background-size: 122% 122%;
-           -moz-background-size: 122%;
-             -o-background-size: 122%;
-                background-size: 122%;
-      }
+  .header_background-color-patterns {
+    background-position: center 38%;
+    -webkit-background-size: 122% 122%;
+    -moz-background-size: 122%;
+    -o-background-size: 122%;
+    background-size: 122%;
+  }
 
-    .header__brand-bbc {
-        max-width: 60.64px;
-        height: 17.41px;
-        width: 100%;
-      }
-      
-      .header__brand-guardian {
-        max-width: 101.28px;
-        height: 17.41px;
-        width: 100%;
-      }
-      
-      .header__brand-forbes {
-        max-width: 64.89px;
-        height: 17.41px;
-        width: 100%;
-      }
-      
-      .header__brand-buzzfeed {
-        max-width: 98.31px;
-        height: 17.41px;
-        width: 100%;
-      }
-      
-      .header__brand-huffington {
-        max-width: 131.29px;
-        height: 50.77px;
-        width: 100%;
-      }
-      
-      .header__brand-wired {
-        max-width: 86.5px;
-        height: 17.41px;
-        width: 100%;
-      }
+  .header__brand-bbc {
+    max-width: 60.64px;
+    height: 17.41px;
+    width: 100%;
+  }
+
+  .header__brand-guardian {
+    max-width: 101.28px;
+    height: 17.41px;
+    width: 100%;
+  }
+
+  .header__brand-forbes {
+    max-width: 64.89px;
+    height: 17.41px;
+    width: 100%;
+  }
+
+  .header__brand-buzzfeed {
+    max-width: 98.31px;
+    height: 17.41px;
+    width: 100%;
+  }
+
+  .header__brand-huffington {
+    max-width: 131.29px;
+    height: 50.77px;
+    width: 100%;
+  }
+
+  .header__brand-wired {
+    max-width: 86.5px;
+    height: 17.41px;
+    width: 100%;
+  }
 
   .header__logo {
     margin-left: 40px;
@@ -269,95 +268,95 @@
   .footer__based {
     margin-left: 40px;
   }
-  
+
   .footer__copyright {
     margin-left: 40px;
   }
-  
+
   .footer__terms {
     margin-right: 40px;
   }
-  
+
   .footer__privacy {
     margin-right: 40px;
   }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-    .security__xbox-tv {
-        margin-left: 0;
-        max-width: 538.86px;
-    }
+  .security__xbox-tv {
+    margin-left: 0;
+    max-width: 538.86px;
+  }
 
-    .advantages__card-wrapper {
-        width: 300px;
-        margin-left: auto;
-        margin-right: auto;
-      }
+  .advantages__card-wrapper {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-      .grab__card-month {
-        max-width: 280px;
-      }
-    
-      .grab__card-five-year {
-        max-width: 280px;
-      }
-    
-      .grab__card-one-year {
-        max-width: 280px;
-      }
+  .grab__card-month {
+    max-width: 280px;
+  }
 
-      .security__wrapper-card-safe-data {
-          width: 488px;
-      }
+  .grab__card-five-year {
+    max-width: 280px;
+  }
 
-      .security__wrapper-card-hasslefree {
-          width: 488px;
-          margin-left: 15px;
-      }
+  .grab__card-one-year {
+    max-width: 280px;
+  }
 
-      .advantages__card-wrapper_margin {
-          margin-top: 0;
-      }
+  .security__wrapper-card-safe-data {
+    width: 488px;
+  }
 
-      .advantages__paragraph {
-        width: 310px;
-    }
+  .security__wrapper-card-hasslefree {
+    width: 488px;
+    margin-left: 15px;
+  }
 
-    .guarantee__paragraph {
-        width: 467px;
-    }
+  .advantages__card-wrapper_margin {
+    margin-top: 0;
+  }
 
-    .guarantee__30day-parag {
-        width: 435px;
-    }
+  .advantages__paragraph {
+    width: 310px;
+  }
 
-    .guarantee__wrapper-card-shield {
-        width: 437px;
-    }
+  .guarantee__paragraph {
+    width: 467px;
+  }
 
-    .guarantee__wrapper-card-shield {
-        margin-top: 217px;
-    }
+  .guarantee__30day-parag {
+    width: 435px;
+  }
 
-    .guarantee__shield {
-        margin-top: 155px;
-    }
+  .guarantee__wrapper-card-shield {
+    width: 437px;
+  }
 
-    .header__brands {
-        width: 900px;
-        margin-left: auto;
-        margin-right: auto;
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: -moz-box;
-        display: -ms-flexbox;
-        display: flex;
-      }
+  .guarantee__wrapper-card-shield {
+    margin-top: 217px;
+  }
 
-      .security__stormtrooper {
-        max-width: 500px;
-      }
+  .guarantee__shield {
+    margin-top: 155px;
+  }
+
+  .header__brands {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .security__stormtrooper {
+    max-width: 500px;
+  }
 }
 
 @media (min-width: 1024px) and (max-width: 1366px) {
