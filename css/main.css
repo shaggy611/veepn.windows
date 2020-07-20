@@ -169,7 +169,7 @@ a:hover {
 .rectangle-scroll-wrapper {
   display: block;
   /* width: 30px; */
-  margin-left: -25px;
+  /* margin-left: -25px; */
   margin-top: 110px;
   /* position: absolute;
   bottom: 10px;
@@ -648,6 +648,7 @@ a:hover {
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 60px;
+  -webkit-appearance: none;
 }
 
 .grab__card-five-year {
@@ -661,6 +662,7 @@ a:hover {
   padding-bottom: 60px;
   margin-left: auto;
   margin-right: auto;
+  -webkit-appearance: none;
 }
 
 .grab__card-one-year {
@@ -674,6 +676,7 @@ a:hover {
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 60px;
+  -webkit-appearance: none;
 }
 
 .grab__choose-price-wrapper > .__money-back {
