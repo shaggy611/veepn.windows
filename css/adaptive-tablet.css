@@ -63,7 +63,7 @@
     width: 572px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 124px;
+    margin-top: 94px;
   }
 
   .header__paragraph {
@@ -361,7 +361,7 @@
 
 @media (min-width: 1024px) and (max-width: 1366px) {
   .header__heading {
-    margin-top: 8%;
+    margin-top: 6.5%;
   }
   
   .header_background-color-patterns {
