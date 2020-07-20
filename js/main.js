@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    $('#expand_button_2').addClass("show");
     let distance = 22392000;
     let countDownFunction = setInterval(function(){
         distance = distance - 10;
@@ -21,3 +22,7 @@ $(document).ready(function () {
         $(".header__timer-digits").text(days + " : " + hours + " : " + minutes + " : " + seconds);
     }, 10);
 });  
+
+window.addEventListener( "pageshow", function () {
+    $('#expand_button_2').addClass("show");
+});
