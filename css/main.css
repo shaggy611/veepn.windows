@@ -168,12 +168,7 @@ a:hover {
 
 .rectangle-scroll-wrapper {
   display: block;
-  /* width: 30px; */
-  /* margin-left: -25px; */
   margin-top: 110px;
-  /* position: absolute;
-  bottom: 10px;
-  left: 50%; */
 }
 
 .rectangle-scroll-wrapper > span {
@@ -417,7 +412,6 @@ a:hover {
 .header__heading {
   color: #ffffff;
   text-align: center;
-  /* margin-top: 142px; */
   margin-top: 9%;
 }
 
